@@ -1,0 +1,23 @@
+{
+  "name": "personal-finance-app",
+  "version": "1.0.0",
+  "description": "Personal Finance App made by yongdeok An.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krauser085/personalFinanceApp.git"
+  },
+  "author": "Yongdeok An",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krauser085/personalFinanceApp/issues"
+  },
+  "homepage": "https://github.com/krauser085/personalFinanceApp#readme",
+  "devDependencies": {
+    "electron": "^8.0.1"
+  }
+}
