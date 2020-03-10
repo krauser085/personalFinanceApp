@@ -19,6 +19,7 @@ ExpenditureView.onKeyup = function (e) {
     const enter = 13
     if(e.keyCode !== enter) return
     console.log(tag, 'onKeyup()', e.keyCode)
+    this.emit('@submit', {input: this.el.value})
 }
 
 export default ExpenditureView
